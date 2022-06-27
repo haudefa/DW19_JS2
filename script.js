@@ -17,6 +17,9 @@ console.error(c)
 SEL=100
 SUCRE=80
 console.error("Nous avons du SEL Q. de " +SEL +". Nous avons du sucre de Q. de " +SUCRE )
-DOSAGE=20
+TEMP=SEL
+SEL=SUCRE
+SUCRE=TEMP
 
-console.error("Nous avons du SEL Q. de " +(SEL-DOSAGE) +". Nous avons du sucre de Q. de " +(SUCRE+DOSAGE) )
+
+console.error("Nous avons du SEL Q. de " +SEL +". Nous avons du sucre de Q. de " +SUCRE )
