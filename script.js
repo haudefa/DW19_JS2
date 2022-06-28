@@ -31,6 +31,6 @@ console.error("l'article vaut " + prix +"euros")
 TTC=parseInt(prix)*1.20
 console.error("l'article vaut "+ TTC +"euros TTC")
 
- date= Date()
+ date= new Date()
 console.error("aujourdhuit nous somme le" + date)
 
