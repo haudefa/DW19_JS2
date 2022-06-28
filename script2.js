@@ -28,14 +28,14 @@
 // else{
 //     console.error("le nombre est impaire")
 // }
-prenom = "haudefa"
-nom = prompt("veuiller entrér votre prénom")
-if (prenom==nom){
-    console.error("sympa on a le mêmê prénom")
-}
-else{
-    console.error("")
-}
+// prenom = "haudefa"
+// nom = prompt("veuiller entrér votre prénom")
+// if (prenom==nom){
+//     console.error("sympa on a le mêmê prénom")
+// }
+// else{
+//     console.error("")
+// }
 // for (i=0;i<5;i++){
 //     alert("Sympa une boucle")
 // }
@@ -44,5 +44,19 @@ for (i=1;i<100;i++){
     console.error(i)
 }
 for (y=100;y<200;y++){
-    console.error(y)
+    console.log(y)
+}
+for(a=0;a<11;a++){
+    console.log("table de " +a)
+     for(b=0;b<11;b++){
+        resulta=b*a
+         console.log(b+" * "+ a +" = "+ resulta)
+    }
+}
+for (c=0;c<11;c++){
+     console.log(c)
+     for (d=0;d<11;d++){
+        console.log(c+ "+" +d+ " = " +(c+d))
+        
+   }
 }
