@@ -92,8 +92,8 @@ afficher("larissa")
 afficher("gamal")
 
 function voir(numb){
-    numb = parseInt (numb)+2
-    console.log( numb)
+    numb = parseInt(numb)+2
+    console.log(numb)
     if (numb>0){
         console.log("ce nombre est positif")
     }
